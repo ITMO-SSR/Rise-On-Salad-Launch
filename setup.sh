@@ -1,11 +1,6 @@
 cd ~/catkin_ws/src
 catkin_create_pkg control_node rospy geometry_msgs
 cd control_node
-echo "
-catkin_install_python(PROGRAMS scripts/control_node.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-" >> CMakeLists.txt
 mkdir scripts
 cd scripts
 wget https://raw.githubusercontent.com/ITMO-SSR/Rice-On-Salad/main/control_node.py
