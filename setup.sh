@@ -1,5 +1,5 @@
 cd ~/catkin_ws/src
-catkin_create_pkg control_node rospy geometry_msgs.msg
+catkin_create_pkg control_node rospy geometry_msgs
 cd control_node
 echo "
 catkin_install_python(PROGRAMS scripts/control_node.py
