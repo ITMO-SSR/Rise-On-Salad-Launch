@@ -1,3 +1,3 @@
-chmod 777 catkin_ws/src/control_node/scripts/control_node.py
-rosrun control_node control_node.py &
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+chmod +x ~/catkin_ws/src/distance_node/scripts/distance_node.py
+roslaunch rplidar_ros rplidar.launch &
+rosrun distance_node distance_node.py
